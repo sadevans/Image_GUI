@@ -1,0 +1,61 @@
+QPushButton#submitBtn {
+    height: 40px;
+    width: 130px;
+    border-radius: 10px;
+    background: #fff;
+    border: 2px solid #1ECD97;
+    color: #1ECD97;
+    font-size: 14px;
+    font-weight: bold;
+}
+QPushButton#submitBtn:hover {
+    color: white;
+    background: #1ECD97;
+}
+QPushButton#submitBtn:pressed {
+    letter-spacing: 2px;
+}
+
+QPushButton#Btn {
+    height: 40px;
+    width: 130px;
+    border-radius: 10px;
+    background: #fff;
+    border: 2px solid #797D7F  ;
+    color: #797D7F  ;
+    font-size: 14px;
+    font-weight: bold;
+}
+QPushButton#Btn:hover {
+    color: white ;
+    background: #797D7F  ;
+}
+QPushButton#Btn:pressed {
+    letter-spacing: 2px;
+}
+
+
+QLineEdit {
+    height: 40px;
+    width: 500%;
+    border-radius: 10px;
+    background: #fff;
+    border: 2px solid #ECF0F1   ;
+    color: #797D7F  ;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+QListWidget {
+    spacing: 15px;
+    border: none;
+    background-color: transparent;
+}
+QScrollBar:vertical {
+    width: 15px;
+}
+QListWidget::item {
+    font-size: 20px;
+    width: 100%;
+}
